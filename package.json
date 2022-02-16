@@ -1,0 +1,21 @@
+{
+  "name": "neo4j-graphql-2.0-livestream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set DEBUG=@neo4j/graphql:* & node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@neo4j/graphql": "^2.0.0",
+    "apollo-server": "^3.1.2",
+    "cypher-query-builder": "^6.0.4",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.1",
+    "neo4j-driver": "^4.3.2"
+  }
+}
